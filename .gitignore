@@ -1,0 +1,144 @@
+## .NET Core / ASP.NET Core Clean Architecture - .gitignore
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+nuget.config
+
+# MSBuild
+*.pidb
+*.svclog
+*.scc
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ASP.NET Core
+BundleConfig.json
+bundleconfig.json
+
+# Publish output
+**/publish/
+**/PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# Secrets / sensitive config
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+secrets.json
+*.pfx
+*.p12
+*.pem
+*.key
+
+# Entity Framework migrations (optional - remove if you want to track migrations)
+# **/Migrations/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+CodeCoverage/
+
+# Benchmarks
+BenchmarkDotNet.Artifacts/
+
+# Docker
+.dockerignore
+
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.lnk
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+~$*
+
+# Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.ReSharper.user
+*.JustCode.xml
+
+# dotCover
+*.dotCover
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# MiniProfiler
+*.mdf
+*.ldf
+*.ndf
+
+# Azure
+csx/
+*.azurePubxml
+*.publishsettings
+ServiceFabricBackup/
+*.bak
+
+# Local environment overrides (Docker Compose, etc.)
+docker-compose.override.yml
